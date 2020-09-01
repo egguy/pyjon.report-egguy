@@ -1,15 +1,15 @@
-from builtins import range
-from builtins import object
-import sys
+import logging
 import os
-import tempfile
 import shutil
+import sys
+import tempfile
+from builtins import object, range
+
+from genshi.template import TemplateLoader
 from PyPDF4.pdf import PdfFileReader, PdfFileWriter
 
 from pyjon.reports import ReportTemplate
-from genshi.template import TemplateLoader
 
-import logging
 logger = logging.getLogger()
 
 class ReportFactory(object):

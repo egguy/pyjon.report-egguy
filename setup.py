@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 import os
 
-version = '0.7'
+version = '0.7.0'
 
 setup(name='pyjon.reports',
       version=version,
@@ -10,9 +10,9 @@ setup(name='pyjon.reports',
                        open(os.path.join("docs", "HISTORY.txt")).read(),
       # Get more strings from http://www.python.org/pypi?%3Aaction=list_classifiers
       classifiers=[
-        "Programming Language :: Python",
-        "Topic :: Software Development :: Libraries :: Python Modules",
-        ],
+          "Programming Language :: Python",
+          "Topic :: Software Development :: Libraries :: Python Modules",
+      ],
       keywords='pdf template report rml splitting',
       author='Etienne G.',
       author_email='crazypops@gmail.com',
@@ -29,7 +29,4 @@ setup(name='pyjon.reports',
           'pypdf4'
           # -*- Extra requirements: -*-
       ],
-      entry_points="""
-      # -*- Entry points: -*-
-      """,
       )

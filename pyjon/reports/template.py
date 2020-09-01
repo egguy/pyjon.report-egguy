@@ -1,13 +1,12 @@
-import time
-import os
-
-import tempfile
 import codecs
-
-from genshi.template import Template, MarkupTemplate
-from z3c.rml import rml2pdf, document, interfaces
-
 import logging
+import os
+import tempfile
+import time
+
+from genshi.template import MarkupTemplate, Template
+from z3c.rml import document, interfaces, rml2pdf
+
 logger = logging.getLogger()
 
 class ReportTemplate(MarkupTemplate):
