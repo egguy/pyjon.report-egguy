@@ -3,7 +3,7 @@ import os
 
 version = '0.7.1'
 
-setup(name='pyjon.reports',
+setup(name='pyjon.reports-egguy',
       version=version,
       description="Pyjon.Reports is a module bridging z3c.rml, genshi and pypdf together to provide a simple mean of creating templated pdf documents in python.",
       long_description=open("README.md").read() + "\n" +
