@@ -7,10 +7,14 @@ setup(name='pyjon.reports-egguy',
       version=version,
       description="Pyjon.Reports is a module bridging z3c.rml, genshi and pypdf together to provide a simple mean of creating templated pdf documents in python.",
       long_description=open("README.md").read() + "\n" +
-                       open(os.path.join("docs", "HISTORY.txt")).read(),
+                       open(os.path.join("docs", "HISTORY.md")).read(),
+      long_description_content_type="text/markdown",
       # Get more strings from http://www.python.org/pypi?%3Aaction=list_classifiers
       classifiers=[
           "Programming Language :: Python",
+          "License :: OSI Approved :: MIT License",
+          "Programming Language :: Python :: 3",
+          "Programming Language :: Python :: 3.7",
           "Topic :: Software Development :: Libraries :: Python Modules",
       ],
       keywords='pdf template report rml splitting',
