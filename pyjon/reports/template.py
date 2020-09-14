@@ -9,6 +9,7 @@ from z3c.rml import document, interfaces, rml2pdf
 
 logger = logging.getLogger()
 
+
 class ReportTemplate(MarkupTemplate):
     def write(self, target_file, **kwargs):
         for status in self.process_write(target_file, **kwargs):
